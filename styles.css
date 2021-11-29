@@ -10,7 +10,7 @@
     border-radius: 50px;
 }
 .background{
-    background:rgba(0, 0, 0, 0.7)url('../img/backpart.jpg');
+    background:rgba(0, 0, 0, 0.7)url('backpart.jpg');
     background-blend-mode: darken;
 }
 .navbar{
@@ -408,7 +408,7 @@ footer h1{
         top: 10px;
     }
     .navbar{
-        background:rgba(0, 0, 0, 0.7)url('../img/backpart.jpg');
+        background:rgba(0, 0, 0, 0.7)url('/backpart.jpg');
         height: 450px;
         transition: all 0.2s ease-out;
     }
@@ -476,7 +476,7 @@ footer h1{
         top: 10px;
     }
     .navbar{
-        background:rgba(0, 0, 0, 0.7)url('../img/backpart.jpg');
+        background:rgba(0, 0, 0, 0.7)url('/backpart.jpg');
         height: 450px;
         transition: all 0.2s ease-out;
     }
