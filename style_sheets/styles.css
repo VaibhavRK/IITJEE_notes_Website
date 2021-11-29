@@ -309,6 +309,13 @@
     border: 4px solid rgb(255, 174, 0);
 }
 
+#submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: burlywood;
+    font-weight: bold;
+}
+
 /* Footer */
 
 footer{
@@ -340,4 +347,200 @@ footer h1{
     width: 50px;
     height: 50px;
     padding: 20px 40px;
+}
+
+.burger{
+   display: none;
+}
+
+.line{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media (min-width:678px) and (max-width:976px){
+    #physics{
+        width: 46%;
+    }
+
+    #maths{
+        width: 42%;
+    }
+
+    #chemistry{
+        width: 62%;
+    }
+}
+
+@media (min-width:390px) and (max-width:678px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-navlist{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    #search{
+        margin-bottom: 10px;
+    }
+    .form textarea{
+        width: 200px;
+    }
+    .burger{
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .navbar{
+        background:rgba(0, 0, 0, 0.7)url('../img/backpart.jpg');
+        height: 450px;
+        transition: all 0.2s ease-out;
+    }
+    .h-nav{
+        height: 50px;
+        transition: all 0.2s ease-in;
+    }
+    .v-nav{
+        opacity: 0;
+    }
+    .firstPart{
+        height: 900px;
+    }
+    .physics p{
+        display: none;
+    }
+    #physics{
+        width: 102%;
+    }
+    .chemistry p{
+        display: none;
+    }
+    #chemistry{
+        width: 102%;
+    }
+    .maths p{
+        display: none;
+    }
+    #maths{
+        width: 102%;
+    }
+}
+
+@media only screen and (max-width:390px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-navlist{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    #search{
+        margin-bottom: 10px;
+    }
+    .form textarea{
+        width: 200px;
+    }
+    .burger{
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .navbar{
+        background:rgba(0, 0, 0, 0.7)url('../img/backpart.jpg');
+        height: 450px;
+        transition: all 0.2s ease-out;
+    }
+    .h-nav{
+        height: 50px;
+        transition: all 0.2s ease-in;
+    }
+    .v-nav{
+        opacity: 0;
+    }
+    .firstPart{
+        height: 1240px;
+    }
+    .physics p{
+        display: none;
+    }
+    #physics{
+        width: 102%;
+    }
+    .chemistry p{
+        display: none;
+    }
+    #chemistry{
+        width: 102%;
+    }
+    .maths p{
+        display: none;
+    }
+    #maths{
+        width: 102%;
+    }
+
+    .physics img {
+        width: 147px;
+        height: 147px;
+        border-radius: 400px;
+        padding: 20px;
+    }
+
+    .maths img {
+        width: 147px;
+        height: 147px;
+        border-radius: 400px;
+        padding: 20px;
+    }
+
+    .chemistry img {
+        width: 147px;
+        height: 147px;
+        border-radius: 400px;
+        padding: 20px;
+    }
+
+    .physics{
+        flex-direction: column;
+    }
+    .maths{
+        flex-direction: column;
+    }
+    .chemistry{
+        flex-direction: column;
+    }
+
+    .sponser{
+        flex-direction: column;
+    }
 }
